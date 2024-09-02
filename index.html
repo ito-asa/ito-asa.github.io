@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="jps">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>いりぐちのページ</title>
+    <link rel="stylesheet" href="puzzule.css"></link>
+    <script type="text/javascript" src="jquery-1.9.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $(".level1").hover(overFunc,outFunc);
+        function overFunc (){
+            $(this).attr("src","img/level12.jpg");
+
+        }
+        function outFunc (){
+            $(this).attr("src","img/level11.jpg");
+            
+        }
+        });
+        $(function(){
+            $(".level2").hover(overFunc,outFunc);
+         function overFunc (){
+            $(this).attr("src","img/level22.jpg");
+        }
+        function outFunc (){
+            $(this).attr("src","img/level21.jpg");
+            
+        }
+        });
+        $(function(){
+            $(".level3").hover(overFunc,outFunc);
+        function overFunc (){
+            $(this).attr("src","img/level32.jpg");
+        }
+        function outFunc (){
+            $(this).attr("src","img/level31.jpg");
+            
+        }
+        });
+
+
+    </script>
+</head>
+<body>
+    <div>
+        <header>
+            <p>
+                <div class="top">
+                    あたまストレッチどうじょうへようこそ！<br>
+                    たのしいなぞときで、かんがえる力をみにつけよう！
+                </div>
+            </p>
+            <section class="index">
+             <h2>もくじ</h2>
+        
+                <p>
+                    <a href="#level1">レベル１</a>
+                </p>
+            
+                <p>
+                    <a href="#level2">レベル２</a>
+                </p>
+            
+                <p>
+                    <a href="#level3">レベル３</a>
+                </p>
+            
+                <p>
+                    <a href="#kaisetu">保護者の方へ</a>
+                </p>
+             
+            </class>
+
+        </header>
+        <main>
+            <section id="level1">
+                <h2>レベル１</h2>
+                    <p>はじめてなぞときをするおともだちむけ</p>
+                    <p>
+                        <a href="level1.html"><img src="img/level11.jpg" alt="レベル１のなぞとき" sizes="20%" class="level1"></a>
+                    </p>
+            </section>
+
+            <section id="level2">
+                <h2>レベル２</h2>
+                    <p>なぞときをやったことがあるおともだちむけ</p>
+                    <p>
+                        <a href="level2.html"><img src="img/level21.jpg" alt="レベル２のなぞとき" sizes="20%" class="level2"></a>
+                    </p>
+            </section>
+
+            <section id="level3">
+                <h2>レベル３</h2>
+                    <p>むずかしいなぞときにチャレンジしたいおともだちむけ</p>
+                    <p>
+                        <a href="level3.html"><img src="img/level31.jpg" alt="レベル３のなぞとき" sizes="20%" class="level3"></a>
+                    </p>
+            </section>
+
+        </main>
+        <footer>
+            <a href="#top"><img src="switch/kikyu.png" width="15%" hight="15%" class="button-size" ></a>
+            <section id="kaisetu">
+             <a href="anser.html"><img src="switch/toriatama.png" width="14%" height="14%" class="button-size" ></a>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
