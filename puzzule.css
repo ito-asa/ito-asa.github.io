@@ -1,0 +1,113 @@
+body{
+    color: #6f5436;
+    font-family: "Zen Maru Gothic", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    background-color:#dcd3b2 ;
+    padding-top: 2rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 5rem;
+    
+}
+
+@media  screen and (max-width:875px) {
+    body{
+        padding: 10px;
+    }
+
+    .level1{
+        width: 100%;
+    }
+
+    .level2{
+        width: 100%;
+    }
+
+    .level3{
+        width: 100%;
+    }
+
+    .font-size{
+        font-size: 25px;
+        margin-top: 0;
+    }
+
+    .question-font-size{
+        font-size: 25px;
+        margin-top: 0;
+    }
+
+    .question-font-size-hint{
+        font-size: 25px;
+        margin: 40px 0;
+    }
+
+    .img-size{
+        width: 100%;
+    }
+
+    .space{
+        margin: 20px 0;
+    }
+
+    .answer-space{
+        margin: 10px;
+    }
+
+}
+
+div{
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+.index {
+    
+    border: 4px dotted;
+    border-color: #6f5436;
+    background-color: #f5c993;
+
+
+}
+
+header{
+
+    font-size: 160%;
+
+}
+
+main{
+
+    font-size: 110%;
+
+}
+
+
+h2{
+    font-size: 200%;
+}
+
+
+footer{
+    margin: 10rem 2rem 0 2rem;
+}
+
+@media  screen and (max-width:875px) {
+    .button-size{
+        width: 30%;
+        height: 30%;
+    }
+
+    .button-size2{
+        width: 30%;
+        height: 30%;
+        padding-bottom: 7px;
+    }
+
+    footer{
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+}
