@@ -94,6 +94,10 @@ footer{
     margin: 10rem 2rem 0 2rem;
 }
 
+.button-size2{
+    padding-bottom: 10px;
+}
+
 @media  screen and (max-width:875px) {
     .button-size{
         width: 30%;
